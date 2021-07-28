@@ -16,7 +16,8 @@
     "typescript": "^4.1.5"
   },
   "scripts": {
-    "build": "rm -rf dist && tsc"
+    "build": "rm -rf dist && tsc",
+    "postpublish": "./postdeploy.sh"
   },
   "prepublish": "yarn build",
   "dependencies": {
