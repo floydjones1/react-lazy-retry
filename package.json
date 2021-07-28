@@ -1,6 +1,6 @@
 {
   "name": "@tdotcode/react-lazy-retry",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A retry wrapper over reacts lazy implemetation to refetch chunks before failing",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
