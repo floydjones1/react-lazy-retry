@@ -5,7 +5,6 @@ type ComponentPromise<T = any> = Promise<{
 }>
 
 export default function lazyRetry<T extends ComponentType<any>>(component: Promise<ComponentPromise<T>>, retries?: number, interval?: number) : LazyExoticComponent<T> {
-
   return lazy(() => retry<T>(component, retries, interval))
 }
 
